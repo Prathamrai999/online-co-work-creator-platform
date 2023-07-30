@@ -1,0 +1,176 @@
+/*
+	Comment
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Add a gray background color with some padding 
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+*/
+/* Header/Blog Title */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolu {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolu {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background-color: transparent;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: Black;
+}
+
+
+/*HERO IMAGE CSS */
+.headko {
+  padding: 190px;
+  font-size: 40px;
+  text-align: center;
+background-color: transparent;
+background-size: cover;
+background-position: center; /* or 50% 50% */
+   background-repeat: no-repeat;
+   background-image: /*linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 1, 2)),*/ url("../../assets/images/dad.jpg");
+}
+
+.hero-tex {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: Black;
+
+  
+}
+
+.hero-tex button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  margin-below: 7px;
+   width: 160px;
+   height: 34px;
+  color: #fff;
+  background-color: #fe5000;
+  text-align: center;
+  font-size:16px;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+
+.hero-tex button:hover {
+  background-color: #000;
+  color: white;
+}
+
+.pc
+{
+  font-size:16px;
+  color: #fff ;
+}
+
+
+/* Add a card effect for articles */
+.cardop {
+  background-color: transparent;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.rowaa:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.driver {
+	max-width: 100%;
+        height: auto;
+
+}
+
+a{
+	text-decoration:none;
+	color: #000 ;
+}
+
+a.hover:hover{
+	
+	color: inherit;
+}
+.cardle{
+	 background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   line-height: 1.6;
+}
+/* Footer 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolu, .rightcolu {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+.act{
+	font-size: 20px;
+	 text-decoration: underline;
+	 	text-decoration:bold;
+		 
+}
+
+span{
+	padding-left:22px;
+
+	text-color:black;
+}
+
+.help{
+	text-align:center;
+	text-decoration: underline;
+	color:#000;
+}
+
+
